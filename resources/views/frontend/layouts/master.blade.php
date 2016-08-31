@@ -20,6 +20,7 @@
 
         <!-- Check if the language is set to RTL, so apply the RTL layouts -->
         @langRTL
+            {{ Html::style(elixir('css/backend-rtl.css')) }}
             {!! Html::style(elixir('css/rtl.css')) !!}
         @endif
 
@@ -31,7 +32,7 @@
     <body id="app-layout">
         @include('includes.partials.logged-in-as')
         @include('frontend.includes.nav')
-
+        
         <div class="container">
             @include('includes.partials.messages')
             @yield('content')

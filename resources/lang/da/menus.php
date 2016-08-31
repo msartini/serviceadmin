@@ -64,7 +64,7 @@ return [
             'es' => 'Spansk',
             'fr' => 'Fransk',
             'it' => 'Italiensk',
-            'pt-BR' => 'Brasiliansk portugisisk',
+            'pt_BR' => 'Brasiliansk portugisisk',
             'sv' => 'Svensk',
             'th' => 'Thai',
         ],

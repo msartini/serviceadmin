@@ -64,7 +64,7 @@ return [
             'es' => 'Spanisch (Spanish)',
             'fr' => 'Französisch (French)',
             'it' => 'Italienisch (Italian)',
-            'pt-BR' => 'Brasilianisches Portugiesisch (Brazilian Portuguese)',
+            'pt_BR' => 'Brasilianisches Portugiesisch (Brazilian Portuguese)',
             'sv' => 'Schwedisch (Swedish)',
             'th' => 'Thai',
         ],
